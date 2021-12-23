@@ -1098,6 +1098,13 @@
   dependencies:
     sift "^13.0.0"
 
+"@ckeditor/ckeditor5-react@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/@ckeditor/ckeditor5-react/-/ckeditor5-react-3.0.3.tgz#7b2d2634bd70a1efcb837dde5a9ac3ed2d839fbc"
+  integrity sha512-Zaazd9Brg64v1Q2qQNtbfryWeVLzXWlNbswLsOYwNgvHlxroa8+F7ZE33M2O8zxcL6sQHZ1vCNkQOPRUBG8pqA==
+  dependencies:
+    prop-types "^15.7.2"
+
 "@emotion/cache@^11.4.0", "@emotion/cache@^11.7.1":
   version "11.7.1"
   resolved "https://registry.npmjs.org/@emotion/cache/-/cache-11.7.1.tgz#08d080e396a42e0037848214e8aa7bf879065539"
@@ -3212,6 +3219,11 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
+
+ckeditor5-build-strapi-wysiwyg@^1.14.0:
+  version "1.14.0"
+  resolved "https://registry.npmjs.org/ckeditor5-build-strapi-wysiwyg/-/ckeditor5-build-strapi-wysiwyg-1.14.0.tgz#02eca459e212aed13b35f1be56f93d5927c3b6f0"
+  integrity sha512-1NipbQm3ngtpIej+9iIxpGrqv86yJ8ZCcw1hLs4S5Y+dbuD2Hux1ztKW4QSfbsiaFgiFCbZlneNIApQPCMGVkA==
 
 class-utils@^0.3.5:
   version "0.3.6"
@@ -10252,6 +10264,14 @@ strapi-helper-plugin@3.6.8:
     reactstrap "8.4.1"
     styled-components "^5.2.3"
     whatwg-fetch "^3.6.2"
+
+strapi-plugin-ckeditor5@1.14.0:
+  version "1.14.0"
+  resolved "https://registry.npmjs.org/strapi-plugin-ckeditor5/-/strapi-plugin-ckeditor5-1.14.0.tgz#008b0cb091e5f2f7e36287b5099ba0abd33123ca"
+  integrity sha512-5HedxIOfapFSKzVLCnU8Z3rqsyJf1Zuiz1JO8HefacjR/5xgQclUWzrwWULdaYkxRxyo8k8z76fs4OoDNdmNEQ==
+  dependencies:
+    "@ckeditor/ckeditor5-react" "^3.0.3"
+    ckeditor5-build-strapi-wysiwyg "^1.14.0"
 
 strapi-plugin-content-manager@3.6.8:
   version "3.6.8"
