@@ -1,16 +1,15 @@
-import styled from 'styled-components';
-import PropTypes from 'prop-types';
+import styled from "styled-components";
+import PropTypes from "prop-types";
 
-import Logo from '../../../assets/images/logo-won.svg';
+import Logo from "../../../assets/images/logo-won.svg";
 
 const Wrapper = styled.div`
-  background-color: ${(props) =>
-    props.theme.main.colors.leftMenu['background-header-link']};
-  height: ${props => props.theme.main.sizes.leftMenu.height};
+  background-color: ${(props) => props.theme.main.colors.won.blue};
+  height: ${(props) => props.theme.main.sizes.leftMenu.height};
 
   .projectName {
     display: block;
-    height: ${props => props.theme.main.sizes.leftMenu.height};
+    height: ${(props) => props.theme.main.sizes.leftMenu.height};
 
     background-image: url(${Logo});
     background-repeat: no-repeat;
